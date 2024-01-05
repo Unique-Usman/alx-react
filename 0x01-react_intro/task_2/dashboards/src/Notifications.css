@@ -1,0 +1,23 @@
+.Notifications {
+  border: 1px dashed red;
+  padding: 1.5rem;
+}
+p {
+  display: inline-block;
+}
+
+button {
+  width: 30px;
+  float: right;
+}
+button img{
+  width: 100%;
+}
+
+li[data-priority="default"] {
+  color: blue;
+}
+
+li {
+  color: red;
+}
